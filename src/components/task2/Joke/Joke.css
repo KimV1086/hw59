@@ -1,0 +1,9 @@
+.joke {
+    margin-bottom: 30px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.joke p {
+    margin: 5px 0 10px;
+}

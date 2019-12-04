@@ -1,25 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
+import AppMovie from './containers/task1/AppMovie'
+import AppJokes from './containers/task2/AppJokes'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Fragment>
+        <AppMovie/>
+        <AppJokes/>
+      </Fragment>
   );
 }
 
